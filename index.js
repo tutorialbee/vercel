@@ -11,7 +11,7 @@ app.listen(port, () => console.log(`Server running on ${port}, http://localhost:
 //app.get('/', (req, res) => res.send('Home 2 Page Route'));
 
 app.get('/', (req, res) => {
-    res.sendFile('./views/index.html', {root:__dirname});
+    res.sendFile('./views/about.html');
 });
 
 app.get('/about', (req, res) => res.send('About Page Route'));
