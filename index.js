@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server running on ${port}, http://localhost:${port}`));
 
 
-app.get('/', (req, res) => res.send('Home Page Route'));
+app.get('/', (req, res) => res.send('Home 2 Page Route'));
 
 // app.get('/', (req, res) => {
 //     res.sendFile('./views/index.html', {root:__dirname})
